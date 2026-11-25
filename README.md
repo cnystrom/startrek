@@ -6,6 +6,7 @@ It is ported from the BASIC program in *BASIC Computer Games*, edited by David A
 
 The project page is at https://nystrom.family/chris/startrek/. An earlier
 page is at https://nystrom.family/chris/old/startrek.html.
+All of Chris's code: https://nystrom.family/chris/code/
 
 ## Build
 
