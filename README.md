@@ -4,6 +4,9 @@ A C port of the classic Super Star Trek game, (c) 1996 Chris Nystrom.
 
 It is ported from the BASIC program in *BASIC Computer Games*, edited by David Ahl (Creative Computing / Workman Publishing, 1978).
 
+The project page is at https://nystrom.family/chris/startrek/. An earlier
+page is at https://nystrom.family/chris/old/startrek.html.
+
 ## Build
 
 The code is 1990s K&R-era C. Modern compilers need C89 mode:
