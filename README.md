@@ -20,6 +20,12 @@ gcc -o startrek startrek.c -lm
 Version 1.2 builds with gcc and clang in their default modes as well as
 `-std=c89`. Tested with gcc 14.2 and clang 19 on Linux.
 
+A Windows .exe can be built with MinGW-w64:
+
+```sh
+x86_64-w64-mingw32-gcc startrek.c -o startrek.exe -lm
+```
+
 ## Changes in 1.2
 
 - Input is read safely. Very long lines no longer overflow a buffer, and
