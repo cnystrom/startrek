@@ -303,7 +303,7 @@ new_game(void)
       printf("  lrs - Long Range Sensors\n");
       printf("  pha - Phasers\n");
       printf("  tor - Photon Torpedoes\n");
-      printf("  she - Sheild Control\n");
+      printf("  she - Shield Control\n");
       printf("  dam - Damage Control\n");
       printf("  com - Library Computer\n");
       printf("  xxx - Resign Command\n");
@@ -1224,7 +1224,7 @@ sheild_control(void)
 
   if (d[7] < 0.0)
     {
-      printf("Sheild Control inoperable\n");
+      printf("Shield Control inoperable\n");
       return;
     }
 
@@ -1240,15 +1240,15 @@ sheild_control(void)
 
   if (i < 0 || s == i)
     {
-      printf("<Sheilds Unchanged>\n\n");
+      printf("<Shields Unchanged>\n\n");
       return;
     }
 
   if (i > e + s)
     {
-      printf("Sheild Control Reports:\n");
+      printf("Shield Control Reports:\n");
       printf("  'This is not the Federation Treasury.'\n");
-      printf("<Sheilds Unchanged>\n\n");
+      printf("<Shields Unchanged>\n\n");
       return;
     }
 
@@ -1787,7 +1787,7 @@ get_device_name(void)
 {
   static char * device_name[] = {
     "", "Warp Engines","Short Range Sensors","Long Range Sensors",
-    "Phaser Control","Photon Tubes","Damage Control","Sheild Control",
+    "Phaser Control","Photon Tubes","Damage Control","Shield Control",
     "Library-Computer"};
 
   if (r1 < 0 || r1 > 8)

@@ -56,6 +56,23 @@ tag `v1.1`:
 git checkout v1.1
 ```
 
+## Dan Vernon's 1998 fixes
+
+In February 1998, Dan Vernon sent Chris a set of fixes to this C port.
+The current source is based on Dan's 5 February 1998 file. His main
+fixes were:
+
+- `find_empty_place` could skip or loop wrongly; he changed it to a
+  do-while
+- The starbase repair-time estimate printed as the literal text `%4.2f`
+  instead of the number
+- Rounding when placing or comparing objects in a quadrant
+- The docked flag is cleared at the start of each short-range scan
+- Bouncing off the edge of the galaxy no longer rebuilt the current
+  quadrant in a way that could disagree with the long-range scan
+
+Version 1.2 kept these fixes and went further.
+
 ## License
 
 Free to redistribute and modify in any way you wish; see the header in `startrek.c`. *Star Trek* is a trademark of Paramount.
