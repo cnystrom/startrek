@@ -53,3 +53,5 @@ git checkout v1.1
 ## License
 
 Free to redistribute and modify in any way you wish; see the header in `startrek.c`. *Star Trek* is a trademark of Paramount.
+
+See `LICENSE`.
